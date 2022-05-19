@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net45</TargetFramework>
     <AssemblyTitle>Rhino.Mocks</AssemblyTitle>
     <Company>$company</Company>
     <Product>$product</Product>
@@ -16,6 +16,7 @@
       <HintPath>..\SharedLibs\nunit.framework.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="GettingStarted.txt" />
