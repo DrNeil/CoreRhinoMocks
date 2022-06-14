@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net35;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net35;netcoreapp3.1;net6.0;netstandard2.0</TargetFrameworks>
     <AssemblyTitle>RhinoMocks</AssemblyTitle>
     <RepositoryType>git</RepositoryType>
     <Version>3.6.1.0</Version>
